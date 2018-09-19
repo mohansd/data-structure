@@ -71,7 +71,7 @@ void inOrder_1(BTree tree) {
     }
     return;
 }
-
+// 之前访问的节点是在栈顶节点的左子树还是右子树
 void postOrder_1(BTree tree) {
     BTNode p = tree->boot;
     SStack s;
